@@ -1,0 +1,17 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+storage:
+  content:
+    image:
+      types: ["jpg","png","gif","webp"]
+      location: "images/"
+    video:
+      types: ["webm","mp3","mkv"]
+      location: "videos/"
+    other:
+      types: []
+      location: "others/"
